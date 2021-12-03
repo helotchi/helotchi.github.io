@@ -1,9 +1,5 @@
 ### Olá! Eu sou a Helô :smile_cat:
 
-- 🔭 Hoje trabalho como Estagiária de Análise de Dados 
-- 🌱 Sou estudante de Desenvolvimento Web Full Stack na Trybe
-- :mortar_board: Quase uma Analista e Desenvolvedora de Sistemas pela UDESC
-
 ##
 
 <div>
