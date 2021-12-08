@@ -1,6 +1,9 @@
 ### Olá! Eu sou a Helô :sparkles: 
 
-<img width="150" height="150" border="0" alt="helo-gif" src="https://i.picasion.com/pic91/3395a3250d26e20eb6ae8b3448c7d929.gif" />
+<div style="display: inline-block">
+  <img width="100" height="100" border="0" alt="helo-gif" src="https://i.picasion.com/pic91/3395a3250d26e20eb6ae8b3448c7d929.gif" />
+  <img width="100" height="100" border="0" alt="jinx-gif" src="https://static.wikia.nocookie.net/dont-starve-game/images/7/70/Valentine%27s_Chester_RWP.gif" />
+</div>
 
 ##
 
