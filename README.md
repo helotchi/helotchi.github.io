@@ -7,7 +7,7 @@
 
 ##
 
-<div style="display: inline-block">
+<div style="display: flex margin: auto">
   <img height="150px" src="https://github-readme-stats.vercel.app/api?username=helotchi&show_icons=true&theme=radical" />
   <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=helotchi&layout=compact&theme=radical" />
 </div>
