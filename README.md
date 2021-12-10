@@ -1,4 +1,4 @@
-### Olá! Eu sou a Helô :sparkles: 
+### Hello! I'm Helô :sparkles: 
 
 <div style="display: inline-block">
   <img width="100" height="100" border="0" alt="helo-gif" src="https://i.picasion.com/pic91/3395a3250d26e20eb6ae8b3448c7d929.gif" />
