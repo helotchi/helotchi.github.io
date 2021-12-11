@@ -6,26 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"> 
     <script src="script.js" type="text/JavaScript" defer></script>
-    <title>ToDo List</title>
+    <title>Check Week</title>
 </head>
 <body>
     <div id="background">
         <div id="container">
             <header>
-                <h1>A Minha Semana</h1>
-                <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+                <div id="header-logo"><img src="img/double-check.png"></div>
+                <h1>Check Week</h1>
+                <!-- <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p> -->
             </header>
             <main>
-                <input id="texto-tarefa">
-                <button id="criar-tarefa">Adicionar</button>
-
-                <ol id="lista-tarefas"></ol>
+                <div id="week">
+                    <div id="monday" class="week-day">
+                        <h2>Monday</h2>
+                    </div>
+                    <div id="tuesday" class="week-day">
+                        <h2>Tuesday</h2>
+                    </div>
+                    <div id="wednesday" class="week-day">
+                        <h2>Wednesday</h2>
+                    </div>
+                    <div id="thursday" class="week-day">
+                        <h2>Thursday</h2>
+                    </div>
+                    <div id="friday" class="week-day">
+                        <h2>Friday</h2>
+                    </div>
+                    <div id="saturday" class="week-day">
+                        <h2>Saturday</h2>
+                    </div>
+                    <div id="sunday" class="week-day">
+                        <h2>Sunday</h2>
+                    </div>
+                </div>
                 
-                <button id="salvar-tarefas">Save</button>
-                <button id="mover-cima">Move Up</button>
-                <button id="mover-baixo">Move Down</button>
-                <button id="remover-finalizados">Delete Finished</button>
-                <button id="apaga-tudo">Delete All</button>
+                <!-- <div id="todo-list">
+                    <input id="texto-tarefa">
+                    <button id="criar-tarefa">Adicionar</button>
+
+                    <ol id="lista-tarefas"></ol>
+                    
+                    <button id="salvar-tarefas">Save</button>
+                    <button id="mover-cima">Move Up</button>
+                    <button id="mover-baixo">Move Down</button>
+                    <button id="remover-finalizados">Delete Finished</button>
+                    <button id="apaga-tudo">Delete All</button>
+                </div> -->
             </main>
         </div>
     </div>

@@ -1,0 +1,23 @@
+body {
+  position: relative;
+  background-color: honeydew;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#background {
+  position: relative;
+  background-image: url(/img/sunset-ge1e431a81_1920.jpg);
+  height: 100%;
+  overflow: hidden; /* Comportamento barra de rolagem: sem barra de rolagem, conteúdo fora da página não aparecerá */
+  background-size: cover;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
