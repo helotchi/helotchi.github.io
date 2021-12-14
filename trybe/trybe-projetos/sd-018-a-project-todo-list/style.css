@@ -26,9 +26,13 @@ html, body {
 
 header {
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
   background: rgba(218, 153, 68, 0.3);
   padding: 6px;
+}
+
+#name-logo {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #header-logo img{
@@ -37,13 +41,31 @@ header {
   height: 30px;
 }
 
+#main-content {
+  height: 100%;
+}
+
 #week {
   display: flex;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  background-color: rgba(128, 128, 128, 0.5);
+  /* align-content: flex-start; */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  flex-basis: 15%;
+  
 }
 
 .week-day {
   background: rgba(218, 153, 68, 0.3);
-  margin: 10px;
+  border-bottom: 1px solid rgba(47, 228, 11, 0.3);
+  border-left: 1px solid rgba(47, 228, 11, 0.3);
+  border-right: 1px solid rgba(47, 228, 11, 0.3);
+  flex-grow: 1;
+  /* margin: auto; */
+  font-size: 10px;
 }
 
 .completed {
