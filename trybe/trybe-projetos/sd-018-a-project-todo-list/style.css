@@ -18,6 +18,7 @@ html, body {
 
 header {
   display: flex;
+  align-items: center;
   font-size: 12px;
   color: rgb(248, 247, 246);
   background-color: rgba(255, 255, 255, 0.2);
@@ -58,6 +59,8 @@ main {
 .week-day {
   /* background: rgba(218, 153, 68, 0.3); */
   /* backdrop-filter: blur(6px); */
+  display: flex;
+  flex-direction: column;
   flex: 1 1 0px;
   font-size: 10px;
   border-left: 1px solid;
@@ -77,6 +80,22 @@ main {
   border-bottom: 1px solid rgb(248, 247, 246);
   color: rgb(248, 247, 246);
   padding: 5px;
+}
+
+.add-task {
+  margin: 10px;
+  padding: 5px;
+  font-family: 'Montserrat Extra-light 200', sans-serif;
+  font-size: 15px;
+  color: rgb(248, 247, 246);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  border-radius: 2px;
+}
+
+.add-task:hover {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .completed {
